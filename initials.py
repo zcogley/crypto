@@ -6,7 +6,6 @@ def get_initials(fullname):
     for name in parts:
         new_str = new_str + name[0]
         rtr_str = new_str.upper()
-    print(rtr_str)
     return rtr_str
 
 def main():
